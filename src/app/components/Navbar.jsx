@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-
+import Image from "next/image";
 const navLinks = [
   {
     title: "About",
@@ -30,7 +30,12 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          Mei Kristian Laoli
+<Image
+  src="/logo-kris.png"
+  alt="Kris Logo"
+  width={64}  // Sesuaikan dengan lebar gambar yang diinginkan
+  height={64} // Sesuaikan dengan tinggi gambar yang diinginkan
+/>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

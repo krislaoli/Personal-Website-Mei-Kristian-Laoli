@@ -7,38 +7,42 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Celebs Minds",
+    description:
+      "The app is designed with a user-friendly interface, making it easy for users to play and navigate through the interesting questions. I ensure that users can enjoy a smooth experience with a clear and responsive scoring system as well as additional features such as leaderboards to motivate healthy competition among players.",
     image: "/images/projects/1.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krislaoli/Trivia-Games",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Circle APP",
+    description:
+      "This is Circle, a website that I have created, as a social media inspired by the threads application Twitter/X, which has features such as Post thread, Follow user and unfollow, Search user, Edit profile",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krislaoli/Circle-App-Front-End",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Hummanoid AI Web",
+    description:
+      "I was inspired to create this website due to the increasing use of robots to replace human jobs in the current technology era. Therefore, I have developed this website for the sale of robots, which can showcase features such as purchasing.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krislaoli/Humanoid-AI-Product",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Todo Ways",
+    description:
+      "This Android application is designed to introduce training/study, this application is also made with several dynamic features",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krislaoli/ToDo-Ways",
     previewUrl: "/",
   },
 ];
