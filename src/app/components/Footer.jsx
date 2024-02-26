@@ -7,6 +7,7 @@ const Footer = () => {
         <span>Kris </span>
         <p className="text-slate-600">
           Copyright © 2024 Kris. All rights reserved.
+          {/* end footer */}
         </p>
       </div>
     </footer>
